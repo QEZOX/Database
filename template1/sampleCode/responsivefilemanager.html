@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>responsivefilemanager</title>
+</head>
+<body>
+
+
+<a href="../lib/filemanager/dialog.php?type=0"
+   onclick="window.open(this.href,'targetWindow','toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=900,height=600');return false;">Popup link</a>
+<div class="input-append">
+	  <input  id="fieldID1" type="text" value="" >
+	  <button onclick="window.open('../lib/filemanager/dialog.php?type=0&popup=1&field_id=fieldID1','مدیریت فایل', 'toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=900,height=600')" class="btn" type="button">Select</button>
+	</div>
+<a href="../lib/filemanager/dialog.php?type=0" target="_blank" class="btn iframe-btn" type="button">Open Filemanager</a>
+<input type="button" href="../lib/filemanager/dialog.php?field_id=imgField&lang=en_EN&akey=myPrivateKey" value="Files">
+
+<hr/>
+<iframe src="../lib/filemanager/dialog.php?type=0"  width="900" height="600" ></iframe>
+</body>
+</html>

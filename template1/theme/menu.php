@@ -1,0 +1,23 @@
+      <div class="row " > <!-- menu -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark  w-100"  >
+          <span class="navbar-brand title" >عنوان سایت</span>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarsExample04">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item"><a class="nav-link" href="index.php"><i class="fas fa-home"></i></a></li>
+              <li class="nav-item" ><a  class="nav-link" href="index.php" >صفحه اصلی</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">محصولات</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown1">
+                  <a class="dropdown-item" href="">محصول 1</a>
+                  <a class="dropdown-item" href="">محصول 2</a>
+                  <a class="dropdown-item" href="">محصول 3</a>
+  
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div><!-- end menu -->
