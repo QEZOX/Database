@@ -1,7 +1,0 @@
-﻿
-<button  class="btn btn-success mt-2" >سبز</button>
-<button  class="btn btn-primary mt-2" >آبی</button>
-<button  class="btn btn-warning mt-2" >ناارنجی</button>
-<button  class="btn btn-danger mt-2" >قرمز</button>
-<button  class="btn btn-info mt-2" >آبی کم رنگ</button>
-<button  class="btn btn-dark mt-2" >مشکی</button>
